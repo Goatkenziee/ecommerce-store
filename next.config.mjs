@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // The appDir is now stable in Next.js 13+ and doesn't need to be in experimental.
-  // If you are using Next.js 13 or later, you can remove the experimental block.
-  // For Next.js 14.2.3, appDir is the default behavior.
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['via.placeholder.com'], // Example: if you use placeholder images
+  },
+  // Note: appDir is enabled by default in Next.js 13+ and doesn't need to be explicitly set.
 };
 
 export default nextConfig;
