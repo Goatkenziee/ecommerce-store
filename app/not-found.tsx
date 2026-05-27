@@ -1,14 +1,9 @@
+// Not found page
 export default function NotFound() {
   return (
-    <html>
-      <head>
-        <title>404 - Page Not Found</title>
-      </head>
-      <body>
-        <h1>404 - Page Not Found</h1>
-        <p>Sorry, the page you are looking for does not exist.</p>
-        <a href="/">Go back to Home</a>
-      </body>
-    </html>
+    <div>
+      <h2>Not Found</h2>
+      <p>Could not find requested resource</p>
+    </div>
   );
 }

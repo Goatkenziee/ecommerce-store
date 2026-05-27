@@ -3,9 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['via.placeholder.com'], // Example: if you use placeholder images
+    domains: ['via.placeholder.com'],
   },
-  // Note: appDir is enabled by default in Next.js 13+ and doesn't need to be explicitly set.
 };
 
 export default nextConfig;
